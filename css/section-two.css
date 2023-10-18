@@ -1,0 +1,58 @@
+/*Section-two*/
+
+.section-two{
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 12%;
+
+}
+.section-two-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px 20px 20px 20px;
+    width: 100%;
+    flex-wrap: wrap;
+
+}
+
+.left-side{
+    flex-basis: 50%;
+    margin: bottom 20px;
+}
+.right-side{
+    flex-basis: 50%;
+    margin: bottom 20px;
+}
+.section-two-container h1{
+    font-size: 50px;
+}
+
+.section-two-container p{
+    font-size: 1.25rem;
+}
+
+.section-two-container img{
+    height: 300px;
+    position: relative;
+    display: flex;
+    width: 90%;
+    margin:auto;
+
+}
+
+.section-two-container video{
+    height: 180px;
+    position: absolute;
+    right: 20%;
+    
+
+   
+}
+
+
+@media only screen and (max-width: 600px){
+    
+}

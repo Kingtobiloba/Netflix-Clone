@@ -1,0 +1,45 @@
+footer{
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0;
+    padding-right: 50px 15% 10px;
+   
+}
+
+footer li{
+    list-style: none;
+    margin-bottom: 10px;
+    margin-right: 20px;
+    font-size: 15px;
+    flex-basis: 25%;
+
+}
+
+footer a{
+    color: rgb(183, 183, 183);
+    text-decoration: underline;
+}
+
+footer .language{
+    background-color: black;
+    color: white;
+    height: 30px;
+    width: 100px;
+    border-color: white;
+    border:1px;
+    border-radius: 2px;
+    border-style: solid;
+
+
+}
+
+footer .Netflix-location{
+    margin-top: 10px;
+
+}
+
+footer p{
+    color: rgb(183, 183, 183);
+}

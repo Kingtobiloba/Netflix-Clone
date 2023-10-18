@@ -1,0 +1,50 @@
+/*Section-three*/
+
+.section-three{
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 12%;
+}
+.section-three-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px 20px 20px 20px;
+    width: 100%;
+   flex-wrap: wrap;
+    
+
+}
+
+.section-three-container h1{
+    font-size: 50px;
+}
+
+.section-three-container p{
+    font-size: 1.25rem;
+}
+
+.section-three-container img{
+    height: 300px;
+
+}
+
+.gif1 {
+    display:flex;
+    border-style: solid;
+    border: 5px;
+    border-color: rgb(255, 255, 255);
+  
+
+}
+
+.gif1 h1{
+    color: white;
+    font-size: 20px;
+}
+.gif1 p{
+    color:#0071eb;
+}
+

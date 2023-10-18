@@ -1,0 +1,181 @@
+
+/* Body*/
+body{
+    background-origin: padding-box;
+    background-color: black;
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding:0;
+}
+
+.header{
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.7) , 
+     rgba(0, 0, 0, 0.7)),
+     url(/assets/NG-en-20231009-popsignuptwoweeks-perspective_alpha_website_small.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    position:relative;
+
+
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+
+
+
+}
+.nav-container img{
+    height: 80px;
+    flex: 1;
+    margin-right: 30px;
+    margin-left: 30px;
+    border-radius: 20px;
+    box-shadow: 1px 2px 3px rgba(0,0,0, 0.15);
+}
+
+.btn1{
+    height: 50px;
+    width: 90px;
+    background-color: #e50914;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    padding:10px;
+    margin-right: 20px;
+    margin-left: 20px;
+    cursor: pointer;
+    transition: backgroun-color 0.5s;
+
+}
+.btn1 a{
+    text-decoration: none;
+    color: white;
+}
+.btn:hover{
+    background-color: #680208;
+
+}
+
+/* header section  */
+.header-section{
+   position: absolute;
+    text-align: center;
+   padding-top: 100px;
+   top: 40%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   margin-top: 70px;
+}
+.header-section h1{
+    font-size: 50px;
+    margin-bottom: 0px;
+    line-height: 60px;
+    max-width: 650px;
+}
+.header-section h3{
+    font-size: 18px;
+    margin-bottom: 0;
+    margin-top: 10px;
+}
+.header-section p{
+    font-size: 1.25rem;
+    margin-bottom: 10px;
+}
+
+.email-signup{
+    display: flex;
+    border-radius: 4px;
+    overflow: hidden;
+    margin-top: 30px;
+    
+}
+
+.email-signup input{
+    border:1px;
+    border-style: solid;
+    flex:1; 
+    padding-left: 10px;
+    width: auto;
+    border-color: rgb(255, 255, 255);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    margin-right: 10px;
+
+}
+
+input::placeholder{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    vertical-align: middle;
+    color: white;
+}
+
+.btn2{
+    
+    height: 50px;
+    width: 150px;
+    background-color: #e50914;
+    color: white;
+    border: none;
+    border-radius: 2px;
+    font-size: 20px;
+    font-weight: bold;
+
+
+}
+
+
+
+.btn2 img{
+    width: 20px;
+}
+
+
+
+.divider{
+    height: 10px;
+    background-color: rgb(47, 46, 46);
+}
+
+
+@media only screen and (max-width: 600px){
+    .nav-container img{
+        height: 50px;
+    }
+
+    .btn1{
+        height: 40px;
+        width: 60px;
+        font-size: 12px;
+    }
+    .header-section{
+        position: unset;
+        transform: none;
+        padding-top: 120px;
+
+    }
+
+    .header-section h1{
+        font-size: 35px;
+        line-height: 35px;
+    }
+   
+
+    .email-signup input{
+        width: 30px;
+    }
+
+    
+
+}
+
+

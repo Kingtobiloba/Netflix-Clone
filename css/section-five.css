@@ -1,0 +1,35 @@
+/*Section-five*/
+
+.section-five{
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 12%;
+}
+.section-five-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px 20px 20px 20px;
+   width: 100%;
+   flex-wrap: wrap;
+
+}
+
+.section-five-container h1{
+    font-size: 50px;
+}
+
+.section-five-container p{
+    font-size: 1.25rem;
+}
+
+.section-five-container img{
+    height: 300px;
+    position: relative;
+    display: inline-block;
+    width: 90%;
+    margin:auto;
+
+}
